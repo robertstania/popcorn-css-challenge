@@ -3,3 +3,128 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+*{
+   font-family: sans-serif;
+   margin: 0;
+}
+body{
+  background: #D4A76A;
+}
+.header{
+  background: #FFDBAA;
+  border-bottom: 1px solid black;
+  padding: 30px 0 70px 10px;
+  text-transform: uppercase;
+}
+
+.header h1{
+  display: inline-block;
+  margin-left: 10px;
+  color: #553100;
+  letter-spacing: 2px;
+}
+
+.header li{
+  list-style: none;
+  background: #805215;
+  display: inline;
+  padding: 15px 20px;
+  margin: 0 30px 0 0;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover{
+  color: 	#FF1493;
+}
+
+.header li:last-child{
+  margin-right: 70px;
+}
+.header ul{
+  float: right;
+  margin-top: 30px;
+}
+
+.section{
+  background: #D4A76A;
+}
+.container{
+    margin-left: 8%;
+}
+
+.titles{
+  background: white;
+  display: inline-block;
+  width: 275px;
+  height: 200px;
+  vertical-align: top;
+  margin: 30px 40px 30px 40px;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+}
+
+.button:hover{
+  background: #FF1493;
+}
+
+.titles h3{
+  text-align: center;
+  padding: 15px 0;
+}
+.titles p{
+  padding: 0 10px 35px 10px;
+}
+
+.button{
+  background: #805215;
+  color: white;
+  border: 1px solid black;
+  width: 250px;
+  margin-left: 10px;
+}
+
+#trouble{
+  margin-bottom: 15px;
+}
+
+.about {
+  background-color: white;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  width: 95%;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.7);
+}
+
+.about:hover{
+  background: #FF1493;
+}
+.button-special a:hover{
+  color:#FF1493;
+}
+
+.about h3{
+  text-align: center;
+  padding: 15px 0;
+
+}
+
+.about p{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.button-special {
+  background: #805215;
+  color: white;
+  border: 1px solid black;
+  width: 98%;
+  margin: 10px;
+
+}
